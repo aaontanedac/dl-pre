@@ -8,7 +8,7 @@
 // @namespace   zc
 // @homepageURL https://gist.github.com/aaontanedac
 // @include     https://www.duellinksmeta.com/deck-tester
-// @match       https://www.duellinksmeta.com/deck-tester
+// @grant       none
 // @downloadURL https://raw.githubusercontent.com/aaontanedac/dl-pre/main/script.js
 // @updateURL   https://raw.githubusercontent.com/aaontanedac/dl-pre/main/script.js
 
