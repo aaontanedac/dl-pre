@@ -1,14 +1,20 @@
 // ==UserScript==
-// @name         New Userscript
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @match        https://raw.githubusercontent.com/aaontanedac/dl-pre/main/script.js
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=githubusercontent.com
-// @grant        none
+// @name        Formato ZC Duel Links
+// @version     1.0.1
+// @description Añade un contador de precios para duelinks meta
+// @author      @aaontanedac
+// @copyright   2023
+// @license     MIT
+// @namespace   zc
+// @homepageURL https://gist.github.com/aaontanedac
+// @match       https://www.duellinksmeta.com/deck-tester#build
+// @downloadURL https://gist.githubusercontent.com/aaontanedac/ac015a44be502489f85394eda9216ba3/raw/f3b83ee7296857f2724874bb0941c73f97b3b4d4/dl-format-ext.js
+// @updateURL https://gist.githubusercontent.com/aaontanedac/ac015a44be502489f85394eda9216ba3/raw/f3b83ee7296857f2724874bb0941c73f97b3b4d4/dl-format-ext.js
+
 // ==/UserScript==
 
+
+function calcular_valor(){
 var deck = document.getElementsByClassName('deck-container svelte-z2tetq')[0];
 var cartas = deck.getElementsByClassName('card svelte-1h71uu4');
 var allrarity = [];
@@ -39,7 +45,8 @@ for (var rar of allrarity) {
       valor += 200;
       break;
     default:
-      valor += 0;
+      valor += 0;                         
       break;
   }
+}
 }
