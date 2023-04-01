@@ -1,16 +1,17 @@
 // ==UserScript==
 // @name        Formato ZC Duel Links
-// @version     1.0.4
+// @version     1.0.5
 // @description Añade un contador de precios para duelinks meta
 // @author      @aaontanedac
 // @copyright   2023
 // @license     MIT
 // @namespace   zc
 // @homepageURL https://gist.github.com/aaontanedac
-// @include     https://www.duellinksmeta.com/deck-tester
+// @match       https://www.duellinksmeta.com/*
 // @grant       none
 // @downloadURL https://raw.githubusercontent.com/aaontanedac/dl-pre/main/script.js
 // @updateURL   https://raw.githubusercontent.com/aaontanedac/dl-pre/main/script.js
+// @run-at      document-end
 
 // ==/UserScript==
 
@@ -51,3 +52,4 @@ function calcular_valor(){
     }
   }
 }
+                                                    
