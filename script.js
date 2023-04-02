@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Formato ZC Duel Links
-// @version     1.0.7
+// @version     1.0.8
 // @description Añade un contador de precios para duelinks meta
 // @author      @aaontanedac
 // @copyright   2023
@@ -83,7 +83,7 @@ function calcular_valor(){
     }
   }
   
-  document.getElementById("ZCtext").innerHTML = valor + " ZC";
+  document.getElementById("ZCtext").innerHTML = valor;
 }
                                                     
 
