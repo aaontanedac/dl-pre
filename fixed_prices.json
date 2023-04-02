@@ -1,5 +1,5 @@
 {   "cartas":[
-    {"codigo": "60c2b3aba0e24f2d54a526a3", "valor": "235"},
-    {"codigo": "60c2b3aaa0e24f2d54a519dd", "valor": "255"}
+    {"codigo": "60c2b3aba0e24f2d54a526a3", "valor": 235},
+    {"codigo": "60c2b3aaa0e24f2d54a519dd", "valor": 255}
     ]
 }
