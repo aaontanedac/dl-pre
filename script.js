@@ -24,7 +24,10 @@ const zcoins = document.createElement("span");
 var isVisibleZC = false;
   
 function addZCtext(){ 
-  let ZCtext = '<span class="is-flex is-justify-content-flex-start is-align-items-flex-end mr-2" id="ZCtext"> 0 ZC<span>'
+      let ZCtext =` <div class="is-flex is-justify-content-flex-start is-align-items-flex-end ">
+                        <img src="https://raw.githubusercontent.com/aaontanedac/dl-pre/18f9df71d513018d8639f4d84b3f23921996e354/pngwing.com.png" alt="zefracoins" width=17 height=18 class="mr-2">
+                        <span class="is-flex is-justify-content-flex-start is-align-items-flex-end mr-2" id="ZCtext"> 0 </span> 
+                    </div>`
   info.insertAdjacentHTML('afterbegin', ZCtext)
 }
 
