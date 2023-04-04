@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Formato ZC Duel Links
-// @version     1.1.2
+// @version     1.1.3
 // @description Añade un contador de precios para duelinks meta
 // @author      @aaontanedac
 // @copyright   2023
@@ -42,7 +42,7 @@
     }
     //End of funcion, añade texto de las ZC
 
-    deck.addEventListener("DOMNodeInserted", (e) => {
+   deck.addEventListener("DOMNodeInserted", (e) => {
 
         if ((e.target.parentNode.outerHTML.includes("card-container") || e.target.parentNode.outerHTML.includes("spinner-border")) &&
             e.target.nodeType == 1) {
@@ -84,9 +84,9 @@
     }
     //End of function, añade ZCtext al tooltip
 
-    function calcular_valor() {
+  async  function calcular_valor() {
 
-        let cartas = deck.getElementsByClassName('card svelte-1h71uu4');
+        let cartas =  await deck.getElementsByClassName('card svelte-1h71uu4');
         let carta_desc = [];
         let valor = 0;
 
