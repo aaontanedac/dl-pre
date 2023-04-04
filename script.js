@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Formato ZC Duel Links
-// @version     1.1.3
+// @version     1.1.4
 // @description Añade un contador de precios para duelinks meta
 // @author      @aaontanedac
 // @copyright   2023
